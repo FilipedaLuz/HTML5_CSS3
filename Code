@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <html lang = "pt-br"><html>
+        <meta charset = "utf-8">
+</head>
+
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      strong {
+        color: red;
+      }
+
+      #missao {
+        font-size: 25px;
+      }
+
+      #banner {
+        width: 100%;
+      }
+
+      .principal {
+        padding: 30px;
+      }
+
+      .itens {
+        font-style: italic;
+      }
+
+      .beneficios {
+        padding: 20px;
+      }
+
+      ul {
+        display: inline-block;
+        vertical-align: top;
+        width: 20%;
+        margin-right: 15%;
+      }
+    </style>
+
+<body>
+          <div class="adicional">
+            <title>html + css.</title>
+            <h1 style="text-align: center; background: #CCCCCC";>Title1</h1>
+                <p>Paragraph1(p)<strong>Strong</strong>(strong) <em>Italic</em>(em) <strong><em>Strong+Italic</em></strong></p>
+                <p>Our mission: learn<strong>html + css</strong></p>
+          </div>
+
+            <header>
+                <h1>Barbearia Alura</h1>
+                padding: 20px;
+            </header>
+              <div class="principal">
+                <img id="banner" src="banner.jpg">
+                <h1 style="text-align: center; background: #CCCCCC">Sobre a Barbearia Alura</h1>
+                <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+                <p id="missao"> <em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em> </p>
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+              </div>
+
+              <div class="benefícios">
+                <h2 style="text-align: center"> Benefícios: </h2>
+                <ul>
+                  <li class="itens">*Atendimento aos clientes</li>
+                  <li class="itens" >*Espaço diferenciado</li>
+                  <li class="itens">*Localização</li>
+                  <li class="itens">*profissionais Qualificados</li>
+                </ul>
+
+                <img scr="beneficios.jpg">
+              </div>
+</body>
+</html>
